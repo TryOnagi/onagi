@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" role="img" aria-labelledby="title desc">
+  <title id="title">Onagi agent icon</title>
+  <desc id="desc">The green agent core with a pixel face inside an ink frame on paper.</desc>
+  <rect width="1024" height="1024" fill="#0d0d0c"/>
+  <rect x="64" y="64" width="896" height="896" fill="#f6f5f1"/>
+  <rect x="272" y="272" width="480" height="480" fill="#ccff00"/>
+  <rect x="396" y="437" width="88" height="88" fill="#f6f5f1"/>
+  <rect x="540" y="437" width="88" height="88" fill="#f6f5f1"/>
+  <rect x="440" y="604" width="144" height="32" fill="#f6f5f1"/>
+</svg>

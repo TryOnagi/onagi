@@ -145,48 +145,28 @@ More: [docs/SECURITY-MODEL.md](docs/SECURITY-MODEL.md)
 ## Architecture
 
 ```mermaid
-flowchart LR
-    subgraph Interfaces
-        WEB["Web app"]
-        TG["Telegram agent"]
-    end
-    subgraph Identity
-        W["Embedded wallet<br/>(Privy)"]
-    end
-    subgraph Execution
-        AG["Agent<br/>prepares order cards"]
-        GU["Guarded order path<br/>pre-trade and post-fill checks"]
-    end
-    subgraph Venues
-        TK["Tokens<br/>Pons · Uniswap v2/v3/v4"]
-        PP["Perps<br/>Lighter"]
-        PR["Predict<br/>Polymarket"]
-    end
-    subgraph Data
-        NODE["Own Robinhood Chain node<br/>and indexer"]
-    end
-    subgraph Economy
-        FV["Fee vault"]
-        TR["Treasury"]
-        RW["Holder rewards<br/>USDG, hourly"]
-        BB["Buyback and burn"]
-    end
+flowchart TB
+    U["Web app · Telegram agent"]
+    AG["Agent<br/>prepares an order card"]
+    W["Embedded wallet (Privy)<br/>scoped, revocable permission"]
+    GU["Guarded order path<br/>pre-trade and post-fill checks"]
+    TK["Tokens<br/>Pons · Uniswap v2/v3/v4"]
+    PP["Perps<br/>Lighter"]
+    PR["Predict<br/>Polymarket"]
+    FP["Fee pool"]
+    RW["50% holder rewards<br/>USDG, hourly"]
+    BB["25% buyback and burn"]
+    TR["25% treasury"]
+    NODE["Own Robinhood Chain node and indexer<br/>prices, candles, pools, holders"]
 
-    WEB --> AG
-    TG --> AG
-    WEB --> GU
+    U --> AG
     AG -->|"user confirms"| GU
-    W -.->|"scoped permission"| GU
-    GU --> TK
-    GU --> PP
-    GU --> PR
-    NODE -->|"prices, candles, pools, holders"| WEB
-    TK -->|"fees"| FV
-    PP -->|"fees"| TR
-    PR -->|"fees"| TR
-    FV --> TR
-    TR --> RW
-    TR --> BB
+    U -->|"manual order"| GU
+    W -.-> GU
+    GU --> TK & PP & PR
+    TK & PP & PR -->|"fees"| FP
+    FP --> RW & BB & TR
+    NODE -.->|"live data"| U
 ```
 
 | Layer | Component | Role |

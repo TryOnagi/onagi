@@ -1,15 +1,12 @@
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="brand/onagi-lockup-on-black.svg">
-    <img src="brand/onagi-lockup-on-white.svg" width="260" alt="Onagi">
-  </picture>
+  <a href="https://onagi.si"><img src="assets/site-hero.jpg" alt="Onagi. Trade anything. Have fun doing it." width="100%"></a>
 </p>
 
-<h3 align="center">The social trading app with an AI agent, on Robinhood Chain.</h3>
+<h3 align="center">Trade anything. Have fun doing it.</h3>
 
 <p align="center">
-  Tokens, perps and predictions from one wallet. Trade yourself, follow other traders,<br>
-  or tell your agent what you want and confirm the order it prepares.
+  Tokens, perps and predictions in one app, with an agent that takes your orders.<br>
+  Social trading on Robinhood Chain, on the web and in Telegram.
 </p>
 
 <p align="center">
@@ -22,16 +19,24 @@
   <a href="https://dune.com/onagi/onagi"><img src="https://img.shields.io/badge/Dune-dashboard-FAFAFA?style=flat-square&labelColor=000000" alt="Dune"></a>
 </p>
 
-<p align="center">
-  <img src="assets/site-hero.jpg" alt="Onagi: tell your agent what to trade. Your money stays yours." width="100%">
-</p>
+<table align="center">
+  <tr>
+    <td align="center"><h2>297</h2><sub>Total users</sub></td>
+    <td align="center"><h2>$657K+</h2><sub>Total volume</sub></td>
+    <td align="center"><h2>$20K+</h2><sub>Total revenue</sub></td>
+    <td align="center"><h2>101</h2><sub>Repeat traders</sub></td>
+  </tr>
+</table>
+
+<p align="center"><sub>Live on Onagi, November 6, 2026 · Live figures on <a href="https://defillama.com/protocol/onagi">DefiLlama</a> and <a href="https://dune.com/onagi/onagi">Dune</a></sub></p>
 
 ---
 
 ## Contents
 
-- [Onagi at a glance](#onagi-at-a-glance)
-- [Products](#products)
+- [One account. Every screen.](#one-account-every-screen)
+- [Product tour](#product-tour)
+- [Everything you trade](#everything-you-trade)
 - [Social trading](#social-trading)
 - [The AI agent](#the-ai-agent)
 - [Your money stays yours](#your-money-stays-yours)
@@ -42,43 +47,61 @@
 - [Verification and public data](#verification-and-public-data)
 - [Integrations](#integrations)
 - [Documentation](#documentation)
+- [Your crew is already trading](#your-crew-is-already-trading)
 - [Source code](#source-code)
 - [Contact](#contact)
 
 ---
 
-## Onagi at a glance
+## One account. Every screen.
+
+<p align="center">
+  <img src="assets/site-devices.jpg" alt="One account. Every screen." width="100%">
+</p>
+
+Open a trade on your phone, close it on your laptop. Same wallet, same positions, everywhere: the web app, the mobile web app and the Telegram agent all run on one account.
 
 | | |
 |---|---|
 | **What** | Social trading app with an AI agent: tokens, perpetuals and prediction markets in one account |
-| **Where** | Web ([app.onagi.si](https://app.onagi.si)) and Telegram ([@OnagiAgentBot](https://t.me/OnagiAgentBot)) |
-| **Chain** | Robinhood Chain (EVM, chain id 4663). Solana tokens are tradable from the same account |
+| **Where** | Web ([app.onagi.si](https://app.onagi.si)), mobile web and Telegram ([@OnagiAgentBot](https://t.me/OnagiAgentBot)) |
+| **Chains** | Robinhood Chain (EVM, chain id 4663) and Solana, in one token list |
 | **Custody** | Self-custodial. Embedded wallet per user; Onagi holds a limited, revocable trading permission |
 | **Venues** | Pons and Uniswap v2 / v3 / v4 (tokens), Lighter (perps), Polymarket (predictions) |
 | **Languages** | The agent speaks 22 languages |
 
-**Traction** (as of November 6, 2026)
+---
 
-| Users | Have traded | Came back to trade again | Total trading volume | Active, last 7 days |
-|:---:|:---:|:---:|:---:|:---:|
-| **297** | **134** | **101** | **$657K+** | **193** |
+## Product tour
 
-Live figures: [DefiLlama](https://defillama.com/protocol/onagi) · [Dune](https://dune.com/onagi/onagi) · [Rewards record](https://onagi.si/payouts)
+**Desktop.** Live token list, TradingView chart, one-tap Buy and Sell, and the token's posts, holders and trades in one view.
+
+<p align="center">
+  <img src="assets/app-desktop.jpg" alt="Onagi web app: ETH token page with chart, order ticket and live trades" width="100%">
+</p>
+
+**Mobile.** A trader's public profile, the home screen with top traders and tokens, a BTC perp with its order book, and the token list.
+
+<p align="center">
+  <img src="assets/app-mobile.jpg" alt="Onagi on iPhone: profile, home, BTC perp and token list" width="100%">
+</p>
 
 ---
 
-## Products
+## Everything you trade
 
 <p align="center">
-  <img src="assets/site-markets.jpg" alt="Three ways to trade. One wallet." width="100%">
+  <img src="assets/site-products.jpg" alt="Everything you trade. One fun little app." width="100%">
 </p>
 
 | Product | What you can do | Venue |
 |---|---|---|
-| **Tokens** | Swap new launches and majors straight from your wallet. Live boards for trending tokens, new launches and bonding curves, with warnings for copycats and low liquidity | Pons, Uniswap v2 / v3 / v4 on Robinhood Chain |
-| **Perps** | Go long or short with up to 50x leverage on crypto, stocks and commodities. Isolated margin per position, with stops and targets placed on the exchange itself | Lighter, in an account opened in your wallet's name |
-| **Predict** | Real event markets and five-minute price rounds on BTC, ETH, SOL and XRP | Polymarket, in a wallet opened in your name |
+| **Tokens** | Robinhood Chain and Solana tokens in one list. Swap new launches and majors straight from your wallet, with live boards for trending tokens, new launches and bonding curves, and warnings for copycats and low liquidity | Pons, Uniswap v2 / v3 / v4 on Robinhood Chain; Solana |
+| **Perps** | Go long or short on crypto, stocks and gold, with up to 50x leverage. Isolated margin per position, with stops and targets placed on the exchange itself | Lighter, in an account opened in your wallet's name |
+| **Predict** | Call the next five minutes on BTC, ETH, SOL and XRP, or trade real event markets | Polymarket, in a wallet opened in your name |
+| **Agent** | Tell your agent. You confirm, it trades | Same venues, same checks |
+| **Social** | Follow the traders who move first | Feed, profiles, posts, Trade alerts |
+| **Rewards** | Hold ONAGI, earn USDG every hour | 50% of the fee pool |
 
 Money can also be brought in from other networks in one step, converted to USDG on Robinhood Chain.
 
@@ -101,11 +124,7 @@ Onagi is built around people, not just order books.
 
 ## The AI agent
 
-<p align="center">
-  <img src="assets/site-agent-telegram.jpg" alt="Your agent lives in Telegram too." width="100%">
-</p>
-
-Tell the agent what you want, in chat on the web or in Telegram.
+Tell the agent what you want, in chat on the web or in Telegram ([@OnagiAgentBot](https://t.me/OnagiAgentBot)).
 
 1. **You ask.** "Long ETH 5x with $50", "buy $20 of ONAGI", "move $20 to Predict".
 2. **It prepares a card.** The card shows the order exactly as the agent understood it.
@@ -123,10 +142,6 @@ What else it does:
 ---
 
 ## Your money stays yours
-
-<p align="center">
-  <img src="assets/site-permission.jpg" alt="A limited permission. In your name." width="100%">
-</p>
 
 Onagi does not hold user funds. Sign-in (email, Google or X) creates an embedded wallet whose key is secured by Privy, not by Onagi. Each user has three pockets, all in their own name:
 
@@ -206,10 +221,6 @@ More: [docs/FEES-AND-REWARDS.md](docs/FEES-AND-REWARDS.md)
 
 ## Fee pool and holder rewards
 
-<p align="center">
-  <img src="assets/site-rewards.jpg" alt="Hold ONAGI. Rewards in USDG." width="100%">
-</p>
-
 Platform fees and ONAGI creator fees fund one fee pool, split by a published allocation:
 
 | Share | Goes to |
@@ -277,6 +288,14 @@ More: [docs/TOKEN.md](docs/TOKEN.md)
 | [Verification](docs/VERIFICATION.md) | Public wallets and how to check every claim on-chain |
 | [Brand assets](brand/) | Logos and colours |
 | [Full docs](https://onagi.si/docs) | The complete, always-current reference on onagi.si |
+
+---
+
+## Your crew is already trading
+
+<p align="center">
+  <a href="https://app.onagi.si"><img src="assets/site-crew.jpg" alt="Your crew is already trading. Pick a face, find your people, make your first trade in a minute." width="100%"></a>
+</p>
 
 ---
 

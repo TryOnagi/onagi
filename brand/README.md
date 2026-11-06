@@ -1,6 +1,8 @@
 # Onagi brand assets
 
-Official Onagi logos for partners, listings and press.
+Official Onagi logos and characters for partners, listings and press.
+
+<p><img src="onagi-wordmark-lime.png" width="320" alt="onagi"></p>
 
 ## Colours
 
@@ -21,7 +23,26 @@ Typeface: [Inter](https://fonts.google.com/specimen/Inter).
 | `onagi-lockup-lime.svg` / `.png` | Full logo with the lime accent, on dark backgrounds |
 | `onagi-icon-on-black.svg` / `-512.png` | App icon on black |
 | `onagi-icon-on-white.svg` / `-512.png` | App icon on white |
+| `onagi-mark-lime.svg` | Mark in Onagi lime, for dark backgrounds |
+| `onagi-wordmark-lime.png` | The "onagi" wordmark in lime, as used on the website |
 | `onagi-agent.svg` / `-512.png` | The Onagi agent character |
+| `crew/*.svg` | The Onagi crew: the characters users pick as their face |
+
+## The crew
+
+<p>
+  <img src="crew/wizard.svg" height="64" alt="Wizard">
+  <img src="crew/rich.svg" height="64" alt="Rich">
+  <img src="crew/whale.svg" height="64" alt="Whale">
+  <img src="crew/degen.svg" height="64" alt="Degen">
+  <img src="crew/og.svg" height="64" alt="OG">
+  <img src="crew/king.svg" height="64" alt="King">
+  <img src="crew/copter.svg" height="64" alt="Copter">
+  <img src="crew/diamond.svg" height="64" alt="Diamond">
+  <img src="crew/party.svg" height="64" alt="Party">
+  <img src="crew/cat.svg" height="64" alt="Cat">
+  <img src="crew/nerd.svg" height="64" alt="Nerd">
+</p>
 
 ## Usage
 

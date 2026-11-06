@@ -48,6 +48,6 @@ Typeface: [Inter](https://fonts.google.com/specimen/Inter).
 
 - Keep clear space around the logo and do not stretch, recolour or add effects.
 - Use the dark-background versions on dark surfaces and the light versions on light surfaces.
-- The Onagi name and logos are trademarks of Onagi. Use them to refer to Onagi, not to suggest endorsement.
+- The Onagi name and logos are trademarks of Wikz LLC, the company that operates Onagi. Use them to refer to Onagi, not to suggest endorsement.
 
 Questions: info@onagi.si

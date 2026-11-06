@@ -313,7 +313,7 @@ Security reports: see [SECURITY.md](SECURITY.md).
 
 | | |
 |---|---|
-| Company | Wikz LLC, Wyoming, United States |
+| Company | WikZ LLC, Wyoming, United States |
 | Email | info@onagi.si |
 | X | [@tryonagi](https://x.com/tryonagi) |
 | Telegram agent | [@OnagiAgentBot](https://t.me/OnagiAgentBot) |
@@ -321,6 +321,6 @@ Security reports: see [SECURITY.md](SECURITY.md).
 
 ---
 
-<sub>Onagi is a self-custodial trading platform operated by Wikz LLC, a Wyoming limited liability company. Onagi is not a broker, bank or investment adviser. Funds stay in your own wallet and venue accounts. Rewards depend on platform fees and can change, and any money in a trade can be lost. Leveraged trading carries a high risk of loss. Nothing here is investment advice. ONAGI is not a share and grants no right to revenue or control over the platform. Not available to persons in restricted jurisdictions. See the <a href="https://onagi.si/terms">Terms of Service</a>, <a href="https://onagi.si/privacy">Privacy Policy</a> and <a href="https://onagi.si/risk">Risk Disclosure</a>.</sub>
+<sub>Onagi is a self-custodial trading platform operated by WikZ LLC, a Wyoming limited liability company. Onagi is not a broker, bank or investment adviser. Funds stay in your own wallet and venue accounts. Rewards depend on platform fees and can change, and any money in a trade can be lost. Leveraged trading carries a high risk of loss. Nothing here is investment advice. ONAGI is not a share and grants no right to revenue or control over the platform. Not available to persons in restricted jurisdictions. See the <a href="https://onagi.si/terms">Terms of Service</a>, <a href="https://onagi.si/privacy">Privacy Policy</a> and <a href="https://onagi.si/risk">Risk Disclosure</a>.</sub>
 
-<sub>© 2026 Wikz LLC. Onagi and the Onagi logo are trademarks of Wikz LLC. All rights reserved.</sub>
+<sub>© 2026 WikZ LLC. Onagi and the Onagi logo are trademarks of WikZ LLC. All rights reserved.</sub>
